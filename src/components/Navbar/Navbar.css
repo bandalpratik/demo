@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+    background-color: #FD9ACD;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar-left > h3 {
+    font-size: 20px;
+}
+
+.navbar-left-links {
+    margin-left: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.navbar-left-links > span {
+    margin-left: 20px;
+}
+
+button {
+    border-radius: 10%;
+    padding: 8px;
+    background-color: #eeeeee;
+    min-width: 70px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+button:hover {
+    background-color: lightgrey;
+}
